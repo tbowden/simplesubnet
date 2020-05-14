@@ -1,2 +1,2 @@
 # simplesubnet
-Simple subnet calculator
+Simple IPv4 subnet calculator, nothing to see here yet.
