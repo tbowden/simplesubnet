@@ -9,6 +9,9 @@ import { IPv4 } from "ip-num/IPv4";
 export class NetaddressComponent implements OnInit {
 
   defaultAddress = new IPv4("192.168.0.0");
+  bin_address = this.defaultAddress.toBinaryString();
+
+
   constructor() { }
 
   ngOnInit(): void {
